@@ -1,0 +1,59 @@
+
+
+Console.WritleLine("Learning 1 - Tutorial");
+
+
+ a dot, or period, that separates the class name Console and the method name WriteLine(). The period is the member access operator.
+ 
+ 
+//char literal
+Console.WriteLine('b');
+
+// int
+Console.WriteLine(123);
+
+// decimal
+  // m or M= literal suffix = we want t work with decimals
+Console.WriteLine(12.30M);
+    // without m, it will be a double
+
+
+// bool
+Console.WriteLine(true);
+Console.WriteLine(false);
+
+
+// strings and char are used for presentations not calculation
+
+
+// variable
+
+string firstName;
+char userOptions;
+int ganeScore;
+decimal particlesPerMillion;
+bool processedCustomer;
+
+
+
+string firstName;
+firstName = "Bob";
+Console.WriteLine(firstName);
+
+
+// implicitly typed local varables
+var message = "Hello World!";  // the type is locked in at the time of declaration
+// once you use the var key word you shoulsd initialise it else- error
+
+
+
+
+
+
+
+
+
+
+
+
+
