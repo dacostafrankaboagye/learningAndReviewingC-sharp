@@ -165,7 +165,82 @@ Console.WriteLine(englishMessage +":\n\t"+ $@"c:\Exercise\{projectName}\data.txt
 Console.WriteLine(russianMessage +":\n\t"+ $@"c:\Exercise\{projectName}\data.txt");
 
  
- 
+ // some basic operations
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets.");
+// Bob sold 77 widgets.
+
+
+
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+// Bob sold 14 widgets.
+
+
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+
+
+// type casting
+int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+
+
+
+//order of basic operations
+/*
+In math, PEMDAS is an acronym that helps students remember the order in which multiple operations are performed. The order is:
+
+Parentheses (whatever is inside the parentheses is performed first)
+Exponents
+Multiplication and Division (from left to right)
+Addition and Subtraction (from left to right)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
