@@ -130,13 +130,40 @@ Console.WriteLine("The message is " + message);
  
  
  
+// String Innterpolation
+
+string firstName = "frank";
+string greetHello = "Hello";
+string greetHi = "Hi";
+string message1  = $"{greetHello} {firstName}" ;
+string message2 = $"{greetHi} {firstName}" ;
+Console.WriteLine(message1);
+Console.WriteLine(message2);
+
+// avoid intermediate variables
+Console.WriteLine($"{greetHello} {firstName}");
+Console.WriteLine($"{greetHi} {firstName}") ;
  
  
  
+ // verbatim literals and string interpolation
+string projectFolderName = "school";
+Console.WriteLine($@"C:\Users\USER\Desktop\{projectFolderName}\power");
+// C:\Users\USER\Desktop\school\power
  
  
- 
- 
+ // try
+
+string projectName = "ACME";
+
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+string englishMessage = "View English output";
+
+
+Console.WriteLine(englishMessage +":\n\t"+ $@"c:\Exercise\{projectName}\data.txt");
+Console.WriteLine(russianMessage +":\n\t"+ $@"c:\Exercise\{projectName}\data.txt");
+
  
  
 
